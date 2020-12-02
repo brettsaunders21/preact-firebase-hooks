@@ -1,5 +1,5 @@
 import { database, FirebaseError } from 'firebase';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'preact';
 import { snapshotToData } from './helpers';
 import useListReducer from './helpers/useListReducer';
 import { LoadingHook, useIsEqualRef } from '../util';

@@ -1,5 +1,5 @@
 import { auth, User } from 'firebase';
-import { useEffect } from 'react';
+import { useEffect } from 'preact';
 import { LoadingHook, useLoadingValue } from '../util';
 
 export type AuthStateHook = LoadingHook<User, auth.Error>;

@@ -1,5 +1,5 @@
 import { storage, FirebaseError } from 'firebase';
-import { useEffect } from 'react';
+import { useEffect } from 'preact';
 import { LoadingHook, useComparatorRef, useLoadingValue } from '../util';
 
 export type DownloadURLHook = LoadingHook<string, FirebaseError>;
