@@ -1,11 +1,9 @@
 {
-  "name": "react-firebase-hooks",
+  "name": "@brettsaunders21/preact-firebase-hooks",
   "version": "2.2.0",
-  "description": "React Hooks for Firebase",
-  "author": "CS Frequency Limited (https://csfrequency.com)",
+  "description": "PReact Hooks for Firebase",
+  "author": "CS Frequency Limited (https://csfrequency.com) & Converted by Brett Saunders",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/csfrequency/react-firebase-hooks",
-  "bugs": "https://github.com/csfrequency/react-firebase-hooks/issues",
   "keywords": [
     "react",
     "hooks",
@@ -37,7 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/csfrequency/react-firebase-hooks.git"
+    "url": "git@github.com:brettsaunders21/preact-firebase-hooks.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "npm run clean && rollup -c",
