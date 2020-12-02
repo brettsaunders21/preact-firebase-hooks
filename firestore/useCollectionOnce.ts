@@ -1,5 +1,5 @@
+import { useEffect } from 'preact';
 import firebase from 'firebase/app';
-import { useEffect } from 'react';
 import { snapshotToData } from './helpers';
 import { LoadingHook, useIsEqualRef, useLoadingValue } from '../util';
 

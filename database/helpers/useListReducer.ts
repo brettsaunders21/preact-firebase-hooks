@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import { useReducer } from 'react';
+import { useReducer } from 'preact';
 
 type KeyValueState = {
   keys?: string[];

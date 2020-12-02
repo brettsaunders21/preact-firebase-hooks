@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+import { useReducer } from 'preact';
 
 export type LoadingValue<T, E> = {
   error?: E;
