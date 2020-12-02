@@ -1,5 +1,5 @@
+import { useEffect, useMemo } from 'preact/hooks';
 import firebase from 'firebase';
-import { useEffect, useMemo } from 'react';
 import { snapshotToData } from './helpers';
 import useListReducer from './helpers/useListReducer';
 import { LoadingHook, useIsEqualRef } from '../util';

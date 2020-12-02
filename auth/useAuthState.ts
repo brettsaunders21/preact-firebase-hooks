@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
-import { useEffect } from 'react';
+import { useEffect } from 'preact/hooks';
 import { LoadingHook, useLoadingValue } from '../util';
+import firebase from 'firebase/app';
 
 export type AuthStateHook = LoadingHook<firebase.User, firebase.auth.Error>;
 

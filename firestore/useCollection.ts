@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'preact/hooks';
 import { snapshotToData } from './helpers';
 import { LoadingHook, useIsEqualRef, useLoadingValue } from '../util';
 
